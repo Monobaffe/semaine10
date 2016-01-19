@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<![endif]--><!--force la compatibilité IE-->
+
+	<meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--s'adapte aux smartsphones-->
+    <meta name="description" content="earth-clicker"><!--description meta-->
+    <meta name="author" content="mathieu lagneau">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<title>Earth-Clicker</title>
+	<link rel="stylesheet" type="text/css" href="cookie.css">
+</head>
+<body id="interfaceGlobal">
+
+            <!-- container  score  left-->
+
+<div id="score"></div>
+
+
+<div id="menu">       <!--container tps left-->
+<div id ="tps">Terre/seconde : 0</div>
+<div id ="reset" class="button">Reset</div>
+</div>
+
+<div id ="audio" >
+
+    <audio src="audio/Small_RADIO-LeafShapedFeelings-remix.mp3" controls autoplay ></audio>
+
+</div>
+
+<div id="log">
+<h2><b>Update-Log.</b> </h2>
+<b>17/01/2016.</b>
+<p>-Ajouts :Html-css de base.</p>
+<p>-Ajout effet clic sur vignettes/icones.</p>
+<p>-Ajouts images money/terre.</p>
+<p>-Ajouts variables et fonction score.</p>
+<b>18/01/2016</b>
+<p>-Ajout fonction click.</p>
+<p>-Ajouts fonctions curseur, anonymous.</p>
+<p>-Ajout prix, multiplicateur, autoclicks.</p>
+<b>-Big up, Merci yohann pour l'aide. :)</b>
+<b>19/01/2016.</b>
+<p>-Ajouts fonctions genie, MoterEarth, mario, god.</p>
+<p>-Correction des fautes. :p</p>
+<p>-Ajouts updatelog et audio.</p>
+<p>-Ajout new background.</p>
+<p>-Modif RGBA</p>
+</div>
+
+
+    <!--div commentaire center top-->
+    <div id ="interfaceCentral">
+<div id ="commentaire"><p>Sauver la planète en cliquant dessus,<br> 
+                        et fabriquer des heros avec les points planètes.</p></div>
+
+                        <!--div clicker center  planète-->
+    <div id="buttonEarth">
+            <img src="images/earth.png">
+    </div>
+
+            
+    </div>
+     
+    
+
+            <!--container right multiplicateurs/autoclicks-->
+
+<div id="store">
+<div id="curseur" style="background-image: url(images/cursor.png)">
+    <b><span id="nbCurseur"></span>Curseur-
+        <img src="images/moni.png" class="moni">
+        <span id ="priceCurseur"></span>
+    </b>
+   <p> AutoClicks toutes les 10 secondes.</p>
+</div>
+
+<div id="anonymous" style="background-image: url(images/anonymous.png)">
+    <b><span id="nbAnonymous"></span>Anonymous-
+        <img src="images/moni.png" class="moni">
+        <span id="priceAnonymous"></span>
+    </b>
+   <p> Un bon anonymous soutient mère.</p>
+</div>
+
+<div id="genie" style="background-image: url(images/genie.png)">
+    <b><span id="nbGenie"></span>Génie-
+        <img src="images/moni.png" class="moni">
+        <span id="priceGenie"></span>
+    </b>
+   <p> Un génie, un souhait, plusieurs...</p>
+</div>
+
+<div id="motherEarth" style="background-image: url(images/MotherEarth.png)">
+    <b><span id="nbMotherEarth"></span>MotherEarth-
+        <img src="images/moni.png" class="moni">
+        <span id="priceMotherEarth"></span>
+    </b>
+  <p>  Mère vous aide, aider la planète.</p>
+</div>
+<div id ="mario" style="background-image: url(images/mario.png)">
+    <b><span id="nbMario"></span>Mario-
+        <img src="images/moni.png" class="moni">
+        <span id="priceMario"></span>
+    </b>
+   <p> Mario save the wolrd, help him.</p>
+</div>
+
+<div id="dieu" style="background-image: url(images/god.png)">
+    <b><span id="nbDieu"></span>GOD-
+        <img src="images/moni.png" class="moni">
+        <span id="priceDieu"></span>
+    </b>
+   <p> Dieu vous aide...What's else?!</p>
+</div>
+</div>
+
+
+<footer>
+
+    <div id="credits">Ver1.0 beta</div>
+
+</footer>
+<script type="text/javascript" src="cookie.js"></script>
+</body>
+</html>

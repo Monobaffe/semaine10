@@ -1,0 +1,187 @@
+/*css general*/
+
+body, html{
+	margin:0px;
+	padding: 0px;
+	background-image: url("backgrounds/water.jpg");
+}
+
+body{
+	max-width:1024px;
+	font-family: Trebuchet,Arial;
+	overflow-y:auto;
+
+}
+
+
+
+/*css score*/
+/*rgba :effet de transparence de la couche alpha*/
+#score{
+background-color: rgba(255, 255, 255, 0.75) ;
+background-image: url("images/money.png");
+background-repeat: no-repeat;
+border-radius: 20px;
+font-size: 24px;
+font-weight: bold;
+height: 30px;
+left: 0px;
+margin: 16px;
+padding: 4px 4px 0 36px;
+top: 0px;
+position: absolute;
+z-index: 100
+}
+
+/*css planete par seconde*/
+
+#menu{
+	position:absolute;
+	left:0px;
+	top:45px;
+	margin:10px 16px;
+	padding:2px 6px;
+	font-weight:bold;
+	font-size:14px;
+	background:#fff;
+	background:rgba(255,255,255,0.75);
+	border-radius:8px;
+	line-height:125%;
+	z-index:100;
+	font-size:12px;
+}
+.button{
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/*css commentaire du milieu*/
+
+#commentaire{
+	position:absolute;
+	left:800px;
+	top:50px;
+	width:400px;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.75);
+	border-radius:18px;
+	z-index: 100;
+	}
+
+#interfaceCentrale
+{
+	position:absolute;
+	left:50%;
+	top:150px;
+	width:0px;
+}
+
+
+/*css planète cliquable*/
+#buttonEarth{
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 512px;
+	height: 512px;
+	position: absolute;
+	left: 750px;
+	top: 200px;
+}
+
+
+/*css menu droite*/
+#store{
+	z-index: 100000;
+}
+
+#store div{
+	background:#666 no-repeat;
+	width:256px;
+	height:64px;
+	right: -1558px;
+	padding-left:100px;
+	cursor:pointer;
+	border:#000 2px solid;
+	position:relative;
+	z-index: 100000;
+}
+
+#store div:hover
+{
+	background-color:#fff;
+}
+#store div:active
+{
+	background-color:#ccc;
+}
+#store div b 
+{
+	display:block;
+	color:#B7526A;
+}
+#store div p{
+	color: #57829F;
+}
+
+/*css moni*/
+.moni{
+	display:inline-block;
+	position:relative;
+	top:4px;
+	margin-right:0px;
+}
+
+#audio{
+	background: rgba(255, 255, 255, 0.75) ;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    left: 0px;
+    line-height: 125%;
+    margin: 10px 16px;
+    padding: 2px 6px;
+    position: relative;
+    top: 90px;
+    width: 300px;
+    z-index: 100000;
+}
+
+#log{
+	  background: rgba(255, 255, 255, 0.75)none repeat scroll 0 0;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 320px;
+    left: 0px;
+    line-height: 125%;
+    margin: 10px 16px;
+    padding: 2px 6px;
+    position: fixed;
+    top: 600px;
+    width: 250px;
+    z-index: 100;
+    color: #5692CE;
+    overflow-y:auto; 
+}
+
+
+/*css footer*/
+
+#credits{
+	background: #666 ;
+	border-top: 2px solid #999;
+	bottom: 0px;
+	color:#fff;
+	font-size: 12px;
+	height: 20px;
+	margin: 0px;
+	width: 100%;
+	position: fixed;
+	z-index:100000;
+}
+
